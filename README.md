@@ -2,7 +2,9 @@
 
 ~~**Update September 27th: predict.py script uploaded. Now you can make a submission for the toy dataset to ensure you can generate correctly formatted submissions.**~~
 
-**Update October 18th: submission period ended. Thank you for participating on the Graph Neural Networking Challenge 2023! The pdf explaining our proposed solution has been uploaded to this repository and in arxiv: https://arxiv.org/abs/2310.11889.**
+**Update October 18th: submission period ended. Thank you for participating on the Graph Neural Networking Challenge 2023! The pdf explaining our proposed solution has been uploaded to this repository and in arXiv: https://arxiv.org/abs/2310.11889. PLEASE DO CITE THE ARXIV PAPER, RATHER THAN THE GITHUB REPOSITORY.**
+
+**Update 2025: Additional code with the implementation of our proposed solution has been uploaded to this repository. For details, refer to the new [section](#running-the-proposed-solution) in the README and to the white paper: https://arxiv.org/abs/2310.11889. Again, if you wish to cite the model or this edition of the challenge, please cite the arXiv whitepaper.**
 
 For more information about this challenge go to: https://bnn.upc.edu/challenge/gnnet2023
 
@@ -21,6 +23,7 @@ Remember that the full datasets must be downloaded separately at: https://bnn.up
     - [Training and evaluating the model](#training-and-evaluating-the-model)
     - [Making predictions](#making-predictions)
     - [IMPORTANT: How to check you are able to generate correct predictions](#important-how-to-check-you-are-able-to-generate-correct-predictions)
+    - [Running the proposed solution](#running-the-proposed-solution)
   - ["How-to" guide for modifying the code](#how-to-guide-for-modifying-the-code)
     - [Default features](#default-features)
     - [Extracting new features](#extracting-new-features)
@@ -175,6 +178,18 @@ cd ..
 python predict.py -ds (CBR+MB|MB) --ckpt-path path/to/checkpoint --tr-path "path/to/training/dataset" --te-path "data/data_toy --toy
 ```
 4. If a submission .zip file was generated, it means the submission was correctly generated!
+
+### Running the proposed solution
+
+To run the new solution, make sure to follow the following steps:
+1. If not installed already, please install the tensorflow-probability package to run the proposed solution:
+```bash
+pip install tensorflow-probability==0.19.0
+```
+2. Use the new data generator, `data/data_generator_proposed.py`, to process all the datasets.
+3. Use the new script, `train_proposed_solution.py`for training the proposed model. It includes the modifications required, such as joining both CBR+MB and MB datasets.
+
+The new model can be found at the `models.py`, named as [`GNN_proposed`](models.py#348).
 
 ## "How-to" guide for modifying the code
 

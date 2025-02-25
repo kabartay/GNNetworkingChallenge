@@ -355,7 +355,7 @@ class GNN_proposed(tf.keras.Model):
         link_state_dim=64,
         node_state_dim=16,
         threshold=0.05,
-        max_iterations=40,
+        max_iterations=10,  # 40
         l1=0,
         l2=0,
         dropout=0,

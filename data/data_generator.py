@@ -249,7 +249,9 @@ def _generator(
         yield ret
 
 
-def input_fn(data_dir: str, shuffle: bool = False, verify_delays:bool = True) -> tf.data.Dataset:
+def input_fn(
+    data_dir: str, shuffle: bool = False, verify_delays: bool = True
+) -> tf.data.Dataset:
     """Returns a tf.data.Dataset object with the dataset stored in the given path
 
     Parameters

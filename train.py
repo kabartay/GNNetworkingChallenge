@@ -72,11 +72,11 @@ def get_default_hyperparams() -> Dict[str, Any]:
     - 100 epochs
     """
     return {
-        "optimizer": tf.keras.optimizers.Adam(learning_rate=0.001),
+        "optimizer": tf.keras.optimizers.Adam(learning_rate=0.005),  # 0.001
         "loss": tf.keras.losses.MeanAbsolutePercentageError(),
         "metrics": [],
         "additional_callbacks": get_default_callbacks(),
-        "epochs": 100,
+        "epochs": 2,  # 100
     }
 
 
@@ -149,7 +149,7 @@ def train_and_evaluate(
     loss: tf.keras.losses.Loss,
     metrics: List[tf.keras.metrics.Metric],
     additional_callbacks: List[tf.keras.callbacks.Callback],
-    epochs: int = 100,
+    epochs: int = 2,
     ckpt_path: Optional[str] = None,
     tensorboard_path: Optional[str] = None,
     restore_ckpt: bool = False,

@@ -1,24 +1,28 @@
-<<<<<<< HEAD
+
 # Graph Neural Networking Challenge
+
 **UPDATE: The [Graph Neural Networking Challenge 2023: Creating a Network Digital Twin with Real Network Data​](https://bnn.upc.edu/challenge/gnnet2023/) is now open! Find you can download the repository and start the challenge [here!](https://github.com/BNN-UPC/GNNetworkingChallenge/tree/2023_RealNetworkDT)**
 
 #### Organized as part of "ITU AI/ML in 5G challenge"
+
 Graph Neural Networks (GNN) have shown a strong potential to be integrated into commercial products for network control and management. Early works using GNN have demonstrated an unprecedented capability to learn from different network characteristics that are fundamentally represented as graphs, such as the topology, the routing configuration, or the traffic that flows along a series of nodes in the network. In contrast to previous ML-based solutions, GNN enables to produce accurate predictions even in networks unseen during the training phase. Nowadays, GNN is a hot topic in the Machine Learning field and, as such, we are witnessing great efforts to leverage its potential in many different fields (e.g., chemistry, physics, social networks). The Graph Neural Networking challenge is an annual competition that brings fundamental challenges on the application of GNN to networking applications. Check out all the editions:
+
 * [Graph Neural Networking challenge 2023: Creating a Network Digital Twin with Real Network Data​](https://bnn.upc.edu/challenge/gnnet2023/)
-    * [GNN Baseline and data preprocessing](https://github.com/BNN-UPC/GNNetworkingChallenge/tree/2023_RealNetworkDT)
+  * [GNN Baseline and data preprocessing](https://github.com/BNN-UPC/GNNetworkingChallenge/tree/2023_RealNetworkDT)
 * [Graph Neural Networking challenge 2022: Improving Network Digital Twins through Data-centric AI](https://bnn.upc.edu/challenge/gnnet2022/)
-    * [GNN Model and notebooks](https://github.com/BNN-UPC/GNNetworkingChallenge/tree/2022_DataCentricAI)
+  * [GNN Model and notebooks](https://github.com/BNN-UPC/GNNetworkingChallenge/tree/2022_DataCentricAI)
 * [Graph Neural Networking challenge 2021: Creating a Scalable Network Digital Twin](https://bnn.upc.edu/challenge/gnnet2021/)
-    * [iGNNition Baseline](https://github.com/BNN-UPC/GNNetworkingChallenge/tree/2021_Routenet_iGNNition)
-    * [Tensorflow Baseline](https://github.com/BNN-UPC/GNNetworkingChallenge/tree/2021_Routenet_TF)
+  * [iGNNition Baseline](https://github.com/BNN-UPC/GNNetworkingChallenge/tree/2021_Routenet_iGNNition)
+  * [Tensorflow Baseline](https://github.com/BNN-UPC/GNNetworkingChallenge/tree/2021_Routenet_TF)
 * [Graph Neural Networking challenge 2020: Modeling QoS-aware queue scheduling policies at networks](https://bnn.upc.edu/challenge/gnnet2020/)
-    * [Tensorflow Baseline](https://github.com/BNN-UPC/GNNetworkingChallenge/tree/2020_Routenet_TF)
+  * [Tensorflow Baseline](https://github.com/BNN-UPC/GNNetworkingChallenge/tree/2020_Routenet_TF)
 
-
-#### Challenge website: https://bnn.upc.edu/challenge/
+#### Challenge website: <https://bnn.upc.edu/challenge/>
 
 ## Credits
+
 This project would not have been possible without the contribution of:
+
 * [Miquel Ferriol-Galmés](https://github.com/MiquelFerriol) - Barcelona Neural Networking center, Universitat Politècnica de Catalunya
 * [Jose Suárez-Varela](https://github.com/jsuarezv) - Barcelona Neural Networking center, Universitat Politècnica de Catalunya
 * [David Pujol Perich](https://github.com/dpujol14) - Barcelona Neural Networking center, Universitat Politècnica de Catalunya
@@ -31,10 +35,13 @@ This project would not have been possible without the contribution of:
 * Albert Cabellos Aparicio - Barcelona Neural Networking center, Universitat Politècnica de Catalunya
 
 ## Mailing List
+
 If you have any doubts, or want to discuss anything related to this repository, you can send an email to the mailing list [challenge2023@bnn.upc.edu](https://mail.bnn.upc.edu/mailman3/postorius/lists/challenge2023.bnn.upc.edu/)). Please, note that you need to subscribe to the mailing list before sending an email [link](https://mail.bnn.upc.edu/mailman3/postorius/lists/challenge2023.bnn.upc.edu/).
 
 ## License
+
 See [LICENSE](LICENSE) for full of the license text.
+
 ```
 Copyright Copyright 2021 Universitat Politècnica de Catalunya
 
@@ -50,55 +57,55 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
+
 =======
+
 # Graph Neural Networking Challenge 2023
 
 ~~**Update September 27th: predict.py script uploaded. Now you can make a submission for the toy dataset to ensure you can generate correctly formatted submissions.**~~
 
-**Update October 18th: submission period ended. Thank you for participating on the Graph Neural Networking Challenge 2023! The pdf explaining our proposed solution has been uploaded to this repository and in arXiv: https://arxiv.org/abs/2310.11889. PLEASE DO CITE THE ARXIV PAPER, RATHER THAN THE GITHUB REPOSITORY.**
+**Update October 18th: submission period ended. Thank you for participating on the Graph Neural Networking Challenge 2023! The pdf explaining our proposed solution has been uploaded to this repository and in arXiv: <https://arxiv.org/abs/2310.11889>. PLEASE DO CITE THE ARXIV PAPER, RATHER THAN THE GITHUB REPOSITORY.**
 
-**Update 2025: Additional code with the implementation of our proposed solution has been uploaded to this repository. For details, refer to the new [section](#running-the-proposed-solution) in the README and to the white paper: https://arxiv.org/abs/2310.11889. Again, if you wish to cite the model or this edition of the challenge, please cite the arXiv whitepaper.**
+**Update 2025: Additional code with the implementation of our proposed solution has been uploaded to this repository. For details, refer to the new [section](#running-the-proposed-solution) in the README and to the white paper: <https://arxiv.org/abs/2310.11889>. Again, if you wish to cite the model or this edition of the challenge, please cite the arXiv whitepaper.**
 
-For more information about this challenge go to: https://bnn.upc.edu/challenge/gnnet2023
+For more information about this challenge go to: <https://bnn.upc.edu/challenge/gnnet2023>
 
-For more information about the ITU AI/ML in 5G Challenge go to: https://aiforgood.itu.int/about-ai-for-good/aiml-in-5g-challenge/
+For more information about the ITU AI/ML in 5G Challenge go to: <https://aiforgood.itu.int/about-ai-for-good/aiml-in-5g-challenge/>
 
-Remember that the full datasets must be downloaded separately at: https://bnn.upc.edu/challenge/gnnet2023/dataset
+Remember that the full datasets must be downloaded separately at: <https://bnn.upc.edu/challenge/gnnet2023/dataset>
 
-
-- [Graph Neural Networking Challenge 2023](#graph-neural-networking-challenge-2023)
-  - [Repository structure](#repository-structure)
-  - [Quickstart](#quickstart)
-    - [Python environment](#python-environment)
-    - [Downloading the dataset and preprocessing the dataset](#downloading-the-dataset-and-preprocessing-the-dataset)
-      - [IMPORTANT: PROCESSING THE TEST DATASET](#important-processing-the-test-dataset)
-    - [(Alternative) work with the provided pre-processed datasets](#alternative-work-with-the-provided-pre-processed-datasets)
-    - [Training and evaluating the model](#training-and-evaluating-the-model)
-    - [Making predictions](#making-predictions)
-    - [IMPORTANT: How to check you are able to generate correct predictions](#important-how-to-check-you-are-able-to-generate-correct-predictions)
-    - [Running the proposed solution](#running-the-proposed-solution)
-  - ["How-to" guide for modifying the code](#how-to-guide-for-modifying-the-code)
-    - [Default features](#default-features)
-    - [Extracting new features](#extracting-new-features)
-      - [**Example: how to extract the Inter-Packet Gap**](#example-how-to-extract-the-inter-packet-gap)
-    - [More processing after data\_generator.py](#more-processing-after-data_generatorpy)
-    - [Changing the model's hyperparameters](#changing-the-models-hyperparameters)
-      - [**Changing the the size of the internal embeddings**](#changing-the-the-size-of-the-internal-embeddings)
-      - [**Modify the internal MLPs and RNNs of the model**](#modify-the-internal-mlps-and-rnns-of-the-model)
-      - [**Changing how and which features are normalized**](#changing-how-and-which-features-are-normalized)
-      - [**Changing the training process hyperparameters**](#changing-the-training-process-hyperparameters)
-  - [Format of the submission file:](#format-of-the-submission-file)
-  - [Credits](#credits)
-  - [Mailing list](#mailing-list)
-
+* [Graph Neural Networking Challenge 2023](#graph-neural-networking-challenge-2023)
+  * [Repository structure](#repository-structure)
+  * [Quickstart](#quickstart)
+    * [Python environment](#python-environment)
+    * [Downloading the dataset and preprocessing the dataset](#downloading-the-dataset-and-preprocessing-the-dataset)
+      * [IMPORTANT: PROCESSING THE TEST DATASET](#important-processing-the-test-dataset)
+    * [(Alternative) work with the provided pre-processed datasets](#alternative-work-with-the-provided-pre-processed-datasets)
+    * [Training and evaluating the model](#training-and-evaluating-the-model)
+    * [Making predictions](#making-predictions)
+    * [IMPORTANT: How to check you are able to generate correct predictions](#important-how-to-check-you-are-able-to-generate-correct-predictions)
+    * [Running the proposed solution](#running-the-proposed-solution)
+  * ["How-to" guide for modifying the code](#how-to-guide-for-modifying-the-code)
+    * [Default features](#default-features)
+    * [Extracting new features](#extracting-new-features)
+      * [**Example: how to extract the Inter-Packet Gap**](#example-how-to-extract-the-inter-packet-gap)
+    * [More processing after data\_generator.py](#more-processing-after-data_generatorpy)
+    * [Changing the model's hyperparameters](#changing-the-models-hyperparameters)
+      * [**Changing the the size of the internal embeddings**](#changing-the-the-size-of-the-internal-embeddings)
+      * [**Modify the internal MLPs and RNNs of the model**](#modify-the-internal-mlps-and-rnns-of-the-model)
+      * [**Changing how and which features are normalized**](#changing-how-and-which-features-are-normalized)
+      * [**Changing the training process hyperparameters**](#changing-the-training-process-hyperparameters)
+  * [Format of the submission file:](#format-of-the-submission-file)
+  * [Credits](#credits)
+  * [Mailing list](#mailing-list)
 
 ## Repository structure
 
-- data: folder containing the code needed to proceprocess the samples. It also includes versions of the datasets with the baseline's procecessing already applied.
-- verification_files: folder containing files used by the predict.py script to verify the generated submissions
-- [models.py](models.py): python module which contain the two baseline models, one for each dataset
-- [train.py](train.py): python script that can be used to train the baseline projects
-- [predict.py](predict.py): python script used to generate predictions for the test dataset and challenge submissions. 
+* data: folder containing the code needed to proceprocess the samples. It also includes versions of the datasets with the baseline's procecessing already applied.
+* verification_files: folder containing files used by the predict.py script to verify the generated submissions
+* [models.py](models.py): python module which contain the two baseline models, one for each dataset
+* [train.py](train.py): python script that can be used to train the baseline projects
+* [predict.py](predict.py): python script used to generate predictions for the test dataset and challenge submissions.
 
 ## Quickstart
 
@@ -106,9 +113,8 @@ Remember that the full datasets must be downloaded separately at: https://bnn.up
 
 In order to work with the dataset a working Python 3.9+ environment is required with, at least, the following packages:
 
-- [networkx](https://networkx.org/) 3.0
-- [numpy](https://numpy.org/) 1.24.2
-
+* [networkx](https://networkx.org/) 3.0
+* [numpy](https://numpy.org/) 1.24.2
 
 To work with the baseline models, [tensorflow](https://www.tensorflow.org/) 2.11.1 is also required.
 
@@ -117,16 +123,16 @@ We recommend setting up a clean python virtual environment for this project (e.g
 ```bash
 pip install networkx==3.0 numpy==1.24.2
 ```
+
 ```bash
 pip install tensorflow==2.11.1
 ```
-
 
 If you have issues while running the code, please verify that the *exact* packages versions are being used. Python versions 3.8.10 and 3.9.16 have proven to work.
 
 ### Downloading the dataset and preprocessing the dataset
 
-Visit the following link to download the dataset and see the instructions on how to explore it: https://bnn.upc.edu/challenge/gnnet2023/dataset
+Visit the following link to download the dataset and see the instructions on how to explore it: <https://bnn.upc.edu/challenge/gnnet2023/dataset>
 
 *WARNING*: these datasets are large (458 GB and 290 GB for the CBR+MB and MB datasets, respectively), make sure you have enough disc space beforehand.
 
@@ -140,7 +146,7 @@ python data/data_generator.py --input-dir "/path/to/mb/dataset" --output-dir dat
 
 #### IMPORTANT: PROCESSING THE TEST DATASET
 
-Once you downloaded the test dataset from https://bnn.upc.edu/challenge/gnnet2023/dataset you will also need to preprocess it! When doing so with [data_generator.py](data/data_generator.py), you have to add the "--test" flag so that the generator does expect invalid flow delays:
+Once you downloaded the test dataset from <https://bnn.upc.edu/challenge/gnnet2023/dataset> you will also need to preprocess it! When doing so with [data_generator.py](data/data_generator.py), you have to add the "--test" flag so that the generator does expect invalid flow delays:
 
 ```bash
 python data/data_generator.py --input-dir "/path/to/test/dataset" --output-dir data/data_test --test
@@ -149,23 +155,26 @@ python data/data_generator.py --input-dir "/path/to/test/dataset" --output-dir d
 ### (Alternative) work with the provided pre-processed datasets
 
 Alternatively, you can work with the preprocessed datasets we have already provided within this repository.
-- CBR+MB dataset:
-  - In its entirety: data/data_cbr_mb
-  - Split into 5 folds, each divided into training / validation, for 5-fold cross validation: data/data_cbr_mb_cv
-- MB dataset:
-  - In its entirety: data/data_mb
-  - Split into 5 folds, each divided into training / validation, for 5-fold cross validation: data/data_cbr_cv
+
+* CBR+MB dataset:
+  * In its entirety: data/data_cbr_mb
+  * Split into 5 folds, each divided into training / validation, for 5-fold cross validation: data/data_cbr_mb_cv
+* MB dataset:
+  * In its entirety: data/data_mb
+  * Split into 5 folds, each divided into training / validation, for 5-fold cross validation: data/data_cbr_cv
 
 Note that these datasets are much smaller (~ 100 MBs total), but you will not be able to extract new features from the raw data. It is meant to replicate the baseline results and as an alternative to participants that may not have the resources to download the datasets.
 
 ### Training and evaluating the model
 
 We have included all the code to train and evaluate the baseline models in the following python files:
-- [models.py](models.py): Contains the two baseline model architectures (one meant for each dataset)
-- [train.py](train.py): Script to train and evaluate models
-- [predict.py](predict.py): Script to generate submissions
+
+* [models.py](models.py): Contains the two baseline model architectures (one meant for each dataset)
+* [train.py](train.py): Script to train and evaluate models
+* [predict.py](predict.py): Script to generate submissions
 
 By using the [train.py](train.py) script, we can train the models with the different datasets. By default, the following calls are supported:
+
 ```bash
 # Train the baseline model using the CBR+MB dataset
 python train.py -ds CBR+MB
@@ -183,6 +192,7 @@ python train.py -ds MB -cfv
 When running by default, the checkpoints with the weights will be stored at the *ckpt/* directory, and the tensorboard logs at the *tensorboard/* directory.
 
 In order to have more control when training the models, you can import the `train_and_evaluate` function and adjust its argument.
+
 ```python
 from train import train_and_evaluate
 ```
@@ -190,16 +200,20 @@ from train import train_and_evaluate
 ### Making predictions
 
 Once the model has been trained, you can evaluate it using the [predict.py](predict.py) script:
+
 ```bash
 python predict.py -ds (CBR+MB|MB) --ckpt-path "path/to/checkpoint" --tr-path "path/to/training/dataset" --te-path "path/to/test/dataset" [--toy]
 ```
-- The dataset must be specified so that the script loads the correct model architecture.
-- The checkpoint path is used to load the specific model weights.
-- The training dataset must be specified so that the script can extract the min-max normalization values from it.
-- The test dataset is the dataset to predict the values from.
-- The toy flag will indicate the script to expect the toy dataset rather than the test dataset. This is required by the script to correctly verify the generated submission is valid.
+
+* The dataset must be specified so that the script loads the correct model architecture.
+
+* The checkpoint path is used to load the specific model weights.
+* The training dataset must be specified so that the script can extract the min-max normalization values from it.
+* The test dataset is the dataset to predict the values from.
+* The toy flag will indicate the script to expect the toy dataset rather than the test dataset. This is required by the script to correctly verify the generated submission is valid.
 
 The script will generate a zip file containing a csv file with the mean delay prediction for each flow of every sample within the specified dataset. **This zip file is the submission that you must upload to the platform.** If you look to inside the csv file within the submission, it should look something like this
+
 ```
 3150;0_1_0;0.06730932742357254
 3150;0_1_1;0.06730929762125015
@@ -209,8 +223,8 @@ The script will generate a zip file containing a csv file with the mean delay pr
 ...
 ```
 
-
 If you prefer, rather than running the predict.py script directly, you can import its `predict` function so that it can be called from your own code. **It is key that whatever you do you do not modify how the output of the prediction is produced. Otherwise we will not be able to correctly asses your submission.**
+
 ```python
 from predict import predict
 ```
@@ -219,26 +233,33 @@ from predict import predict
 
 To ensure the participants are able to generate valid submissions, we have published a toy dataset that can be used to generate a sample submission. The steps to do so are the following:
 
-1. Download the toy dataset from the following link: https://bnn.upc.edu/download/ch23-toy-dataset/
+1. Download the toy dataset from the following link: <https://bnn.upc.edu/download/ch23-toy-dataset/>
 2. Parse the dataset using the data generator. Remember to use the "--test" flag, as the toy dataset has no labels:
+
 ```bash
 cd data
 python data_generator.py --input-dir "path/to/toy/dataset" --output-dir data_toy --test
 ```
+
 3. Use the [predict.py](predict.py) to make the toy submission. Remember to add the "--toy" flag so the correct verification files are loaded:
+
 ```bash
 cd ..
 python predict.py -ds (CBR+MB|MB) --ckpt-path path/to/checkpoint --tr-path "path/to/training/dataset" --te-path "data/data_toy --toy
 ```
+
 4. If a submission .zip file was generated, it means the submission was correctly generated!
 
 ### Running the proposed solution
 
 To run the new solution, make sure to follow the following steps:
+
 1. If not installed already, please install the tensorflow-probability package to run the proposed solution:
+
 ```bash
 pip install tensorflow-probability==0.19.0
 ```
+
 2. Use the new data generator, `data/data_generator_proposed.py`, to process all the datasets.
 3. Use the new script, `train_proposed_solution.py`for training the proposed model. It includes the modifications required, such as joining both CBR+MB and MB datasets.
 
@@ -251,50 +272,56 @@ This section is meant in showing you how can you modify the code provided in the
 ### Default features
 
 The features used by default in the baseline are the following:
--  `flow_traffic`: the average traffic bandwidth per flow in bps
--  `flow_packets`: the number of generated packets per flow
--  `flow_packet_size`: the size of the generated packets per flow
--  `flow_type`: two-dimensional one-hot encoded feature used to identify the flow type of each flow
-   -  `[1, 0]` indicates the flow is a Constant Bit Rate (CBR) flow
-   -  `[0, 1]` indicates the flow is a Multi Burst (MB) flow
-- `flow_length`: length of the physical path followed by each flow
-- `link_capacity`: for each link, it indicates its bandwidth in bps
-- `link_to_path`: for each flow, it indicates the links forming its path, in order
-- `path_to_link`: for each link, it lists the flows that traverse it. It also includes the position of the link in each flow's path. For a given link the same flow can appear more than once if the link is traversed more than one in the same flow path
+
+* `flow_traffic`: the average traffic bandwidth per flow in bps
+* `flow_packets`: the number of generated packets per flow
+* `flow_packet_size`: the size of the generated packets per flow
+* `flow_type`: two-dimensional one-hot encoded feature used to identify the flow type of each flow
+  * `[1, 0]` indicates the flow is a Constant Bit Rate (CBR) flow
+  * `[0, 1]` indicates the flow is a Multi Burst (MB) flow
+* `flow_length`: length of the physical path followed by each flow
+* `link_capacity`: for each link, it indicates its bandwidth in bps
+* `link_to_path`: for each flow, it indicates the links forming its path, in order
+* `path_to_link`: for each link, it lists the flows that traverse it. It also includes the position of the link in each flow's path. For a given link the same flow can appear more than once if the link is traversed more than one in the same flow path
 
 The target metric is `flow_delay`, the mean packet delay per flow, in mbps.
 
 From these features, `flow_traffic`, `flow_packets`, `flow_packet_size` and `link_capacity` are normalized using min-max normalization.
 
 Additionally, the following feature is computed at run time during training:
-- `load`: for each link, the expected load is computed by combining the `flow_traffic`and `path_to_link` features.
+
+* `load`: for each link, the expected load is computed by combining the `flow_traffic`and `path_to_link` features.
 
 Finally, three additional features are extracted from data in order to identify the samples. These are not used in the model itself, but are left for more insight during debugging and to correctly identify each node:
-- `sample_file_name`
-- `sample_file_id`
-- `flow_id`
+
+* `sample_file_name`
+* `sample_file_id`
+* `flow_id`
 
 ### Extracting new features
 
 The [data_generator.py](data/data_generator.py) script works by loading the dataset from disc, and processing each sample individually into a usable format by tensorflow. To do so it uses three functions:
-- `_get_network_decomposition`: this function takes a sample in the format provided by the dataset's API (named DatanetAPI), and returns a sample in a format accepted by tensorflow models
-- `_generator`: this function defines a generator which loads the datasets and processes its samples one by one using `_get_network_decomposition`. It also filters out unsuitable samples.
-- `input_fn`: wrapper function that uses `_generator` and `tensorflow.data.Dataset.from_generator` to transform the raw dataset into a `tensorflow.data.Dataset`.
+
+* `_get_network_decomposition`: this function takes a sample in the format provided by the dataset's API (named DatanetAPI), and returns a sample in a format accepted by tensorflow models
+* `_generator`: this function defines a generator which loads the datasets and processes its samples one by one using `_get_network_decomposition`. It also filters out unsuitable samples.
+* `input_fn`: wrapper function that uses `_generator` and `tensorflow.data.Dataset.from_generator` to transform the raw dataset into a `tensorflow.data.Dataset`.
 
 In order to add additional features to the model, changes must be done at three distinct points of the [data_generator.py](data/data_generator.py) script:
-- Extract the new feature from the sample (lines 91 - 141).
-- Ensure that the new feature is returned by the `_get_network_decomposition` function (lines 198 - 227).
-- Change the signature of the tf.data.Dataset to include the new feature inside the `input_fn` function (lines 276-293).
+
+* Extract the new feature from the sample (lines 91 - 141).
+* Ensure that the new feature is returned by the `_get_network_decomposition` function (lines 198 - 227).
+* Change the signature of the tf.data.Dataset to include the new feature inside the `input_fn` function (lines 276-293).
 
 You may extract any feature that may be provided by the DatanetAPI, with the **exception being performance matrix and the individual packet delays found at the packet info data structure**, as these **will not** be provided with the test dataset.
 
-For more information about the DatanetAPI, please check the README file inside the dataset's compressed directory, or the online documentation at https://github.com/BNN-UPC/datanetAPI/tree/challenge2023.
+For more information about the DatanetAPI, please check the README file inside the dataset's compressed directory, or the online documentation at <https://github.com/BNN-UPC/datanetAPI/tree/challenge2023>.
 
 #### **Example: how to extract the Inter-Packet Gap**
 
 For better understanding on how a new feature can be added, we will proceed to explain how the Inter-Packet Gap (IPG) can extracted and added to the samples as features. The IPG is measured as the time past between two consecutive packets.
 
 First, we need to modify the implementation of `_get_network_decomposition` so that the IPG is extracted. Currently, the function already extracts the network topology, traffic matrix, routing matrix and performance matrix from the sample. However, the IPG is extracted from the packet-level information, so we need to load the packet info matrix:
+
 ```python
 # sample is a Sample instance, an input of the _get_network_decomposition function.
 network_topology = sample.get_physical_topology_object()
@@ -306,6 +333,7 @@ packet_info_matrix = sample.get_pkts_info_object()
 ```
 
 The matrix contains the packet traces for all the flows inside. In order to iterate through all the flows, we then use the traffic matrix to identify which routers have flows between them, and how many of them (*NOTE*: this code is already present in lines 91-96 at [data_generator.py](data/data_generator.py)):
+
 ```python
 for src, dst in filter(
     lambda x: traffic_matrix[x]["AggInfo"]["AvgBw"] != 0
@@ -315,16 +343,19 @@ for src, dst in filter(
     for f_id in range(len(traffic_matrix[src, dst]["Flows"])):
         flow_packet_info = packet_info_matrix[src, dst][0][f_id]
 ```
+
 Here, the outer loop iterates through all router pairs, and the condition represented by the lambda function ensures that there is at least one flow between them. The inner loop iterates across all flows that start at `src` and end at `dst`. In the final line we access the packet-level information for the given flow.
 
-*Note: for more details about how to access the packet_info_matrix and how to interpret the packet-level information present, please check the DatanetAPI's README file inside the dataset's directory or the online documentation at https://github.com/BNN-UPC/datanetAPI/tree/challenge2023*
+*Note: for more details about how to access the packet_info_matrix and how to interpret the packet-level information present, please check the DatanetAPI's README file inside the dataset's directory or the online documentation at <https://github.com/BNN-UPC/datanetAPI/tree/challenge2023>*
 
 Now, the `flow_packet_info` is defined as a list where each element is the information related to each individual captured packet. The elements of the list are ordered using the timestamp of the packet's creation. Each element is a tuple containing this precise timestamp and the delay suffered by the packet during its transmission. For the purpose of obtaining the IPG, we only need the former:
+
 ```python
 packet_timestamps = np.array([float(x[0]) for x in flow_packet_info])
 ```
 
 With it, we can obtain the sequence of IPGs for that flow:
+
 ```python
 ipg = packet_timestamps[1:] - packet_timestamps[:-1]
 ```
@@ -357,6 +388,7 @@ flows[flow_id] = {
 ```
 
 The next step is making sure that the IPG is included in the features returned by the `_get_network_decomposition` function (at lines 180 - 209 at [data_generator.py](data/data_generator.py)):
+
 ```python
 sample = (
     {
@@ -433,6 +465,7 @@ After this final step, we can run again the [data_generator.py](data/data_genera
 ### More processing after data_generator.py
 
 The easiest way to implement changes to the dataset is by using tensorflow.data.Dataset's `map` function. This allows you to define a function that takes as input each sample and its label and modify it. For example, this sample code shows how you can change the samples so that label is replaced by its logarithm:
+
 ```python
 import tensorflow as tf
 
@@ -447,16 +480,18 @@ The advantage of this method is that it quicker than modifying the [data_generat
 ### Changing the model's hyperparameters
 
 You can modify any of the baseline models by modifying their code, which can be found inside the [models.py](models.py) python file. **NOTE**: unless you modify the training and evaluation pipeline, the models must follow the following conditions:
-- Have a string attribute called `name` to identify the model's architecture
-- Have a set attribute named `min_max_scores_fields` and a function called `set_min_max_scores` to add min-max normalization to the samples in the model
-  - `min_max_scores_fields` is used to identify which of the input fields must be normalized
-  - `set_min_max_scores` will be used so that the model store the min-max scores. For more details, refer to its implementation
+
+* Have a string attribute called `name` to identify the model's architecture
+* Have a set attribute named `min_max_scores_fields` and a function called `set_min_max_scores` to add min-max normalization to the samples in the model
+  * `min_max_scores_fields` is used to identify which of the input fields must be normalized
+  * `set_min_max_scores` will be used so that the model store the min-max scores. For more details, refer to its implementation
 
 Possible changes include, but aren't limited to:
 
 #### **Changing the the size of the internal embeddings**
 
 Changing the size of the internal embeddings is as simple as modifying the `path_state_dim` and `link_state_dim` attributes of the models:
+
 ```python
 def __init__(self, override_min_max_scores=None, name=None):
     super(Baseline_cbr_mb, self).__init__()
@@ -470,15 +505,18 @@ def __init__(self, override_min_max_scores=None, name=None):
 #### **Modify the internal MLPs and RNNs of the model**
 
 The Baseline model counts with the following MLPs:
-- `flow_embedding`: used to generate an initial representation of flows taking as input the flow's attributes
-- `link_embedding`: used to generate an initial representation of links taking as input the flow's attributes
-- `readout_path`: takes as input the path sequence state and generates delay predictions
+
+* `flow_embedding`: used to generate an initial representation of flows taking as input the flow's attributes
+* `link_embedding`: used to generate an initial representation of links taking as input the flow's attributes
+* `readout_path`: takes as input the path sequence state and generates delay predictions
 
 The Baseline model counts with the following RNNs:
-- `path_update`: used to update the flow states during message passing
-- `link_update`: used to update the link states during the message passing
+
+* `path_update`: used to update the flow states during message passing
+* `link_update`: used to update the link states during the message passing
 
 All of these functions are defined inside the `__init__` function and can be modified at will. For example, by default weight regularization is not included, but it can be added as an attribute when defining the MLPs:
+
 ```python
 self.flow_embedding = tf.keras.Sequential(
     [
@@ -540,16 +578,20 @@ self.readout_path = tf.keras.Sequential(
 #### **Changing how and which features are normalized**
 
 Currently, min-max normalization is implemented in the model as follows: when a model is instantiated, the min-max normalization values are computed and passed to the model in the following line:
+
 ```python
 model.set_min_max_scores(get_min_max_dict(ds_train, model.min_max_scores_fields))
 ```
-- `model.min_max_scores_fields` is a set that indicates the name of the fields that need min-max normalization
-- `get_min_max_dict` is a function in [train.py](train.py) that obtains the min-max weights
-- `model.set_min_max_scores` is a function that verifies that the format of the min-max weights is correct, and stores them inside the attribute `model.min_max_scores` so they can be used within `model.call`.
+
+* `model.min_max_scores_fields` is a set that indicates the name of the fields that need min-max normalization
+
+* `get_min_max_dict` is a function in [train.py](train.py) that obtains the min-max weights
+* `model.set_min_max_scores` is a function that verifies that the format of the min-max weights is correct, and stores them inside the attribute `model.min_max_scores` so they can be used within `model.call`.
 
 Setting the min-max weights is a requisite for the models to function properly.
 
 If you wish to compute the min-max normalization of a new variable, you simply must include the variable name in `model.min_max_scores_fields`. Then, inside the `model.call` function, you must ensure that you normalize the features before introducing them:
+
 ```python
 class Baseline_cbr_mb(tf.keras.Model):
     min_max_scores_fields = {
@@ -571,9 +613,11 @@ If you wish to use another type of normalization (e.g. z-scores), remember to de
 One can make changes to the training process hyperparameters by running a script that imports the `train_and_evaluate` function from [train.py](train.py) in order to have more control over them.
 
 For example, in order to train a model using:
-- SGD instead of Adam as an optimizer
-- 150 epochs instead of 100
-- Mean Square Error Loss rather than Mean Absolute Percentage Error
+
+* SGD instead of Adam as an optimizer
+* 150 epochs instead of 100
+* Mean Square Error Loss rather than Mean Absolute Percentage Error
+
 ```python
 from train import get_default_callbacks, train_and_evaluate
 ...
@@ -593,15 +637,16 @@ trained_model, evaluation = train_and_evaluate(
 
 If there is another aspect of the pipeline that you wish to change, but it is not covered by the method's attribute, you are encouraged to make any changes to the [train.py](train.py) you wish.
 
-## Format of the submission file:
+## Format of the submission file
 
-If you are not sure if the output of your solution fits correctly the format of the output CSV file, we detail below the format this file should have: 
-- Each line should contain 3 values separated by “;”, representing the prediction for a single flow:
-    - The sample’s id value, represented as an integer.
-    - A 3-value tuple to identify the flow within the sample, indicating the source, the destination, and the flow id. This is represented by a string formed by three integers joined with underscore characters (e.g. “0_1_2”)
-    - The predicted delay, as a float value. Note: delay prediction MUST contain a maximum of 9 decimal digits. Further digits will be truncated.
-- **The predicted delays are expected to be unnormalized.** If your model produces normalized and/or transformed values, make sure to undo these changes before storing them in the submission. **The predicted delays should be measured in seconds.**
-- **The order of the samples (i.e., the lines in the CSV document) is important.** To ensure they are correctly ordered, when you read the test dataset with the DataNet API we provide, ensure that the option “shuffle” has a value of “False”.
+If you are not sure if the output of your solution fits correctly the format of the output CSV file, we detail below the format this file should have:
+
+* Each line should contain 3 values separated by “;”, representing the prediction for a single flow:
+  * The sample’s id value, represented as an integer.
+  * A 3-value tuple to identify the flow within the sample, indicating the source, the destination, and the flow id. This is represented by a string formed by three integers joined with underscore characters (e.g. “0_1_2”)
+  * The predicted delay, as a float value. Note: delay prediction MUST contain a maximum of 9 decimal digits. Further digits will be truncated.
+* **The predicted delays are expected to be unnormalized.** If your model produces normalized and/or transformed values, make sure to undo these changes before storing them in the submission. **The predicted delays should be measured in seconds.**
+* **The order of the samples (i.e., the lines in the CSV document) is important.** To ensure they are correctly ordered, when you read the test dataset with the DataNet API we provide, ensure that the option “shuffle” has a value of “False”.
 
 For example, a correctly format document would start as follows:
 
@@ -616,9 +661,10 @@ For example, a correctly format document would start as follows:
 
 The submission is verified with the verification file “verification_files/submission_verification.txt” (or “verification_files/submission_verification_toy.txt” for the toy dataset). This document indicates the number of flows per sample (and hence, for the entire dataset). By default, the script uses them to verify the submission.
 
-
 ## Credits
+
 This project would not have been possible without the contribution of:
+
 * [Carlos Güemes Palau](https://github.com/CarlosGuemS) - Barcelona Neural Networking center, Universitat Politècnica de Catalunya
 * [Miquel Ferriol-Galmés](https://github.com/MiquelFerriol) - Barcelona Neural Networking center, Universitat Politècnica de Catalunya
 * [Albert López](https://github.com/albert-lopez) - Barcelona Neural Networking center, Universitat Politècnica de Catalunya
@@ -628,4 +674,3 @@ This project would not have been possible without the contribution of:
 ## Mailing list
 
 If you have any doubts, or want to discuss anything related to this repository, you can send an email to the mailing list [challenge2023@bnn.upc.edu](TODO). Please, note that you need to subscribe to the mailing list before sending an email [[link](TODO)].
->>>>>>> cabe6a5868eea8cffc84272060cb51e37f87b8cc

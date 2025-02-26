@@ -339,8 +339,8 @@ if __name__ == "__main__":
     from models import GNN_proposed
 
     # Prepare variables
-    cbr_mb_ds_path = "data/data_cbr_mb_solution"
-    mb_ds_path = "data/data_mb_solution"
+    cbr_mb_ds_path = "dataset/data_cbr_mb_solution"
+    mb_ds_path = "dataset/data_mb_solution"
     _reset_seeds()
     trained_model, evaluation = train_and_evaluate(
         cbr_mb_ds_path, mb_ds_path, GNN_proposed(log=True), **get_default_hyperparams()
